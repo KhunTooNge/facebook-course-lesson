@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Poppins:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(7, 230, 96);
+    background: linear-gradient(90deg, rgba(7, 230, 96, 0.7987570028011204) 0%, rgba(145, 6, 237, 0.8295693277310925) 0%);
+}
+
+.content_container {
+    width: 600px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 0px;
+    background-color: rgba(0, 0, 0, 0.529);
+    color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    width: 95px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+button.guess {
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background: rgb(182, 8, 156);
+    color: white;
+    cursor: pointer;
+    margin: 5px 0px 10px 0px;
+    border: none;
+}
+
+button.guess:hover,
+button.restartBtn:hover {
+    background-color: inherit;
+}
+
+button.restart {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(182, 8, 156);
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin: 20px 20px 0px 0px;
+    border: none;
+
+}
+
+.fail {
+    border: 3px solid red;
+}
+
+.success {
+    border: 3px solid wheat;
+}
